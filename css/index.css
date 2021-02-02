@@ -1,0 +1,344 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #262626;
+}
+h1 {
+    font-family: 'p22-allyson-pro', sans-serif;
+    font-size: 100px !important;
+    color: #f2f2f2;
+}
+h2 {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #d1a16c;
+}
+h3 {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: #f2f2f2;
+}
+h4 {
+    font-family: 'sofia-pro', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #f2f2f2;
+}
+
+p {
+    font-family: 'sofia-pro', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+/* Navigation */
+.logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+}
+.navbar {
+    position: sticky;
+}
+
+.nav-link {
+  color: #f2f2f2 !important;
+  font-family: 'Sofia-Pro', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-right: 60px;
+}
+.nav-link:hover {
+  color: #d1a16c !important;
+  transition: all ease 0.5s;
+}
+.active {
+    color: #d1a16c !important;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+/* navbar solid */
+.solid {
+    background: #262626;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+}
+
+/* breadcrumbs */
+.breadcrumb {
+    background-color: #262626;
+    margin-left: 80px;
+}
+.breadcrumb a {
+    color: #6c757d;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../images/25.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 85vh;
+}
+.hero-text {
+    margin-top: 15px;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #d1a16c;
+    color: #000;
+    border: none;
+}
+.btn:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    outline: none;
+    transform: translateY(-7px);
+    color: #000;
+    background-color: #d1a16c;
+}
+.CTA {
+    padding-top: 25px;
+}
+
+/* fade in text */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+    opacity: 1;
+}
+/* about me */
+
+.about {
+    background-color: #262626;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.about-text p {
+    color: #f2f2f2;
+    padding-right: 40px;
+}
+
+/* skills section */
+
+.skills {
+    padding-bottom: 50px;
+}
+.skills-title {
+    text-align: left;
+    padding-top: 25px;
+}
+.skills-section {
+    padding-top: 15px;
+}
+.skills-section p {
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+/* projects */
+
+.projects {
+    background-color: rgb(20, 20, 20);
+}
+.project-header, .contact-header {
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-top: 50px;
+}
+.project-title {
+    color: #f2f2f2;
+    padding-top: 45px;
+}
+.project-1 p, .project-2 p, .project-3 p {
+    padding-bottom: 30px;
+}
+.project-1:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../images/vicinity-hero.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      transition: all ease 0.5s;
+      cursor: pointer;
+}
+.project-1 a:hover {
+    text-decoration: none;
+}
+.project-2 a:hover {
+    text-decoration: none;
+}
+.project-3 a:hover {
+    text-decoration: none;
+}
+
+.project-2:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("../images/hero-sara.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      transition: all ease 0.5s;
+      cursor: pointer;
+}
+.project-3:hover {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url(../images/knight-watch-hero.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      transition: all ease 0.5s;
+      cursor: pointer;
+}
+
+/* scrollspy */
+
+
+/* Contact section */
+
+.contact-sec {
+    background-color: #000;
+    padding: 20px;
+}
+.card-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.contact-card {
+    background-color: #181717;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    height: 100px;
+}
+.contact-card-icon {
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+    color: #d1a16c;
+}
+
+.contact-card:hover .contact-card-icon{
+    background: #d1a16c;
+    color: #000;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.footer {
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: #d1a16c;
+  }
+  .footer p {
+    font-size: 18px;
+    font-family: 'sofia-pro', sans-serif;
+  }
+ 
+
+/* mobile device */
+
+@media screen and (max-width:600px) {
+    .logo {
+        margin: 0px;
+      }
+    h1 {
+        font-size: 80px !important;
+    }
+    h2 {
+        margin-top: 30px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .breadcrumb {
+        margin-left: 10px;
+    }
+    .jumbotron {
+    background-position: center;
+}
+    .hero-text {
+        margin-top: 65px;
+    }
+    .about {
+        padding-bottom: 0px;
+        
+    }
+    .skills-title {
+        padding-top: 0px;
+    }
+    .skills-section {
+        padding-top: 0px;
+    }
+    .project-1, .project-2, .project-3 {
+        margin-top: 25px;
+        margin-bottom: 25 px;
+    }
+    .project-1 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url("../images/vicinity-hero.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .project-2 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url("../images/hero-sara.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .project-3 {
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url("../images/knight-watch-hero.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .card-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+    }
+    .contact-card {
+        margin-bottom: 15px;
+    }
+
+}
