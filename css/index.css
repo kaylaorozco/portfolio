@@ -165,11 +165,9 @@ p {
 }
 .project-title {
     color: #f2f2f2;
-    padding-top: 45px;
+    padding-top: 10px;
 }
-.project-1 p, .project-2 p, .project-3 p {
-    padding-bottom: 30px;
-}
+
 .project-1:hover {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
@@ -204,7 +202,7 @@ p {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-      ),url(../images/knight-watch-hero.png);
+      ),url("../images/knight-watch-hero.png");
       background-size: 100%;
       background-repeat: no-repeat;
       transition: all ease 0.5s;
@@ -277,13 +275,13 @@ p {
         margin: 0px;
       }
     h1 {
-        font-size: 80px !important;
+        font-size: 70px !important;
     }
     h2 {
         margin-top: 30px;
     }
     h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .breadcrumb {
         margin-left: 10px;
@@ -292,7 +290,7 @@ p {
     background-position: center;
 }
     .hero-text {
-        margin-top: 65px;
+        margin-top: 50px;
     }
     .about {
         padding-bottom: 0px;
@@ -306,7 +304,6 @@ p {
     }
     .project-1, .project-2, .project-3 {
         margin-top: 25px;
-        margin-bottom: 25 px;
     }
     .project-1 {
         background: linear-gradient(
