@@ -167,7 +167,9 @@ p {
     color: #f2f2f2;
     padding-top: 10px;
 }
-
+.project-1, .project-2, .project-3 {
+    height: 250px;
+}
 .project-1:hover {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
